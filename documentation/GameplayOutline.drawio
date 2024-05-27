@@ -1,0 +1,67 @@
+<mxfile host="app.diagrams.net" modified="2024-05-27T03:52:48.973Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="YjjMMaJdCu_fRNBdg4gi" version="24.4.8" type="device">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="939" dy="812" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="X5Xb9vBfKLVEZnyP86P--4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="X5Xb9vBfKLVEZnyP86P--2" target="X5Xb9vBfKLVEZnyP86P--3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X5Xb9vBfKLVEZnyP86P--2" value="Game Start" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="40" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="X5Xb9vBfKLVEZnyP86P--9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="X5Xb9vBfKLVEZnyP86P--3" target="X5Xb9vBfKLVEZnyP86P--8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X5Xb9vBfKLVEZnyP86P--3" value="Load Comic Sequence" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="200" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X5Xb9vBfKLVEZnyP86P--14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="X5Xb9vBfKLVEZnyP86P--8" target="X5Xb9vBfKLVEZnyP86P--10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X5Xb9vBfKLVEZnyP86P--8" value="Camera pans to each box with VFX" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="360" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X5Xb9vBfKLVEZnyP86P--15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="X5Xb9vBfKLVEZnyP86P--10" target="X5Xb9vBfKLVEZnyP86P--12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X5Xb9vBfKLVEZnyP86P--10" value="Load Starting House Level in Background (with player spawned)" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="450" y="120" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="X5Xb9vBfKLVEZnyP86P--17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="X5Xb9vBfKLVEZnyP86P--12" target="X5Xb9vBfKLVEZnyP86P--16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X5Xb9vBfKLVEZnyP86P--12" value="Fade to black the open once level loaded" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="560" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X5Xb9vBfKLVEZnyP86P--16" value="Show tooltip over workbench" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="720" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X5Xb9vBfKLVEZnyP86P--21" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;rotation=90;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="717.5" y="80" width="125" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="X5Xb9vBfKLVEZnyP86P--26" value="Player interact with workbench" style="rhombus;whiteSpace=wrap;html=1;perimeterSpacing=0;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="730" y="120" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="X5Xb9vBfKLVEZnyP86P--29" value="&lt;div&gt;Yes&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="660" y="190" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="X5Xb9vBfKLVEZnyP86P--30" value="&lt;div&gt;No&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="850" y="190" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="X5Xb9vBfKLVEZnyP86P--32" value="knowsUpgrade = TRUE" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="637.5" y="240" width="95" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="X5Xb9vBfKLVEZnyP86P--33" value="Show tooltip over next workbench" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="818.75" y="320" width="112.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="X5Xb9vBfKLVEZnyP86P--36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="X5Xb9vBfKLVEZnyP86P--35" target="X5Xb9vBfKLVEZnyP86P--33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X5Xb9vBfKLVEZnyP86P--35" value="knowsUpgrade = False" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="827.5" y="240" width="95" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

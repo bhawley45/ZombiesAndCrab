@@ -2,13 +2,22 @@
     "name": "PlayerInputs",
     "maps": [
         {
-            "name": "InGame",
-            "id": "b4a6874d-e71d-421b-9cb5-4cdc39513897",
+            "name": "Player",
+            "id": "fc28a67a-6d71-460a-8099-b33b81032f68",
             "actions": [
+                {
+                    "name": "Dash",
+                    "type": "Button",
+                    "id": "e7685ec2-1d65-4680-b86c-443c33f6ecdf",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
                 {
                     "name": "Movement",
                     "type": "Value",
-                    "id": "f9499b40-938f-4cf1-b84b-5a29b21796e8",
+                    "id": "1e68e760-d4b2-4c3d-9d28-3159d4896297",
                     "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
@@ -18,7 +27,7 @@
             "bindings": [
                 {
                     "name": "WASD",
-                    "id": "36c26abd-d2be-43bc-88bb-3230d79f641f",
+                    "id": "4eae3821-737d-40e6-9e9c-14ec2efc684b",
                     "path": "2DVector",
                     "interactions": "",
                     "processors": "",
@@ -29,7 +38,7 @@
                 },
                 {
                     "name": "up",
-                    "id": "b24c7026-e6f6-453c-b225-c101c1e68243",
+                    "id": "fe8bd8e0-cbae-4a28-938c-653a599409d0",
                     "path": "<Keyboard>/w",
                     "interactions": "",
                     "processors": "",
@@ -40,7 +49,7 @@
                 },
                 {
                     "name": "down",
-                    "id": "45ccd328-087d-4eb5-97fb-29643649fbad",
+                    "id": "edf198a0-a56b-4c2c-9338-058412547af5",
                     "path": "<Keyboard>/s",
                     "interactions": "",
                     "processors": "",
@@ -51,7 +60,7 @@
                 },
                 {
                     "name": "left",
-                    "id": "5c64b053-3fd7-4f50-ba0e-5db618e8a007",
+                    "id": "10a7a2f3-4703-4bbd-9bed-e03d244241fb",
                     "path": "<Keyboard>/a",
                     "interactions": "",
                     "processors": "",
@@ -62,7 +71,7 @@
                 },
                 {
                     "name": "right",
-                    "id": "5d6fcc6b-44e1-4a38-b777-ec8bf45e0208",
+                    "id": "f0801702-03a2-4f9d-94aa-48f9cfb43ddb",
                     "path": "<Keyboard>/d",
                     "interactions": "",
                     "processors": "",
@@ -70,6 +79,17 @@
                     "action": "Movement",
                     "isComposite": false,
                     "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "66bd842f-0475-4134-b8c1-dec646621155",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Dash",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         }

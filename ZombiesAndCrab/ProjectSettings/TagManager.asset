@@ -44,11 +44,17 @@ TagManager:
   - name: Wall
     uniqueID: 2120481079
     locked: 0
-  - name: Decor_Base
+  - name: Foliage
+    uniqueID: 38969135
+    locked: 0
+  - name: Decor
     uniqueID: 2051331281
     locked: 0
   - name: Decor_Overlap
     uniqueID: 2072315139
+    locked: 0
+  - name: Foliage_Overlap
+    uniqueID: 3415369627
     locked: 0
   - name: Interactable
     uniqueID: 1827928629
